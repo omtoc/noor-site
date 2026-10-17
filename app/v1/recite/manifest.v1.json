@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "version": 1,
+  "requires": {
+    "nativeApi": 1,
+    "engine": 1
+  },
+  "model": {
+    "bytes": 88307366,
+    "sha256": "4767182cd92975869f81a7e32700b14ca2b04e8dc97a15ff220a8697f4639488",
+    "parts": [
+      {
+        "name": "model.onnx.000",
+        "bytes": 8388608,
+        "sha256": "1609e67114b8fd89a8f59c823d51555a82a5e4ace5dab25ae28e66da306a6353"
+      },
+      {
+        "name": "model.onnx.001",
+        "bytes": 8388608,
+        "sha256": "3126546e94242f46320637ac8a660ea6d3b79e8c1249b7b6b773c8fd23f54813"
+      },
+      {
+        "name": "model.onnx.002",
+        "bytes": 8388608,
+        "sha256": "c09a03c205ee563983e63efa3d444ae161532b01e50e455b85570c69b6d531d0"
+      },
+      {
+        "name": "model.onnx.003",
+        "bytes": 8388608,
+        "sha256": "7ead8cfb514892feb22fde0c4afbf3204827b26bb724a06d956e0e581887eb76"
+      },
+      {
+        "name": "model.onnx.004",
+        "bytes": 8388608,
+        "sha256": "f02a75dc807a933431a7fd4cc8dbe4501ede1d8a9f9bffcc7aac434cfdbe7cf6"
+      },
+      {
+        "name": "model.onnx.005",
+        "bytes": 8388608,
+        "sha256": "276d5f691232ee5fb01a1c8d7358937dbc920534b319c067349c4d1cce1df0f4"
+      },
+      {
+        "name": "model.onnx.006",
+        "bytes": 8388608,
+        "sha256": "c19857ea71e73ca0f386ee971585f59bb42142be7e3ed1ae405834d40b3ba5de"
+      },
+      {
+        "name": "model.onnx.007",
+        "bytes": 8388608,
+        "sha256": "bd0b96f9224e2f0e0051fc9f4b2ff2469dcb459a3d11ecb7318a39e0c71b29ca"
+      },
+      {
+        "name": "model.onnx.008",
+        "bytes": 8388608,
+        "sha256": "3fd3b12e503b968d9d9f05da5e96008da57f69001ac2c2c0349bed6a50489d82"
+      },
+      {
+        "name": "model.onnx.009",
+        "bytes": 8388608,
+        "sha256": "a89f5ca9ded28e7328d23f5c015d94891f78572f156f5028fba16a9e15c45585"
+      },
+      {
+        "name": "model.onnx.010",
+        "bytes": 4421286,
+        "sha256": "cf8b284ca7ff5d4c48639b1876e479a4a46f8d4e6323406e91c6bbaeaa42cc80"
+      }
+    ],
+    "io": {
+      "audio": "audio_signal",
+      "length": "length",
+      "output": "log_probs"
+    },
+    "blankId": 1024,
+    "rate": 16000
+  },
+  "files": {
+    "vocab.json": {
+      "bytes": 21062,
+      "sha256": "c55877f3bff8bc3aaefc160e8c2fb88cb349088d092513d40210ccfe535e671b"
+    },
+    "text.json": {
+      "bytes": 1532063,
+      "sha256": "985d75400519b6b29e9cba1ac25cedf022e439677c569fbb211f39b3fbcb6f8f"
+    },
+    "geometry.bin": {
+      "bytes": 221230,
+      "sha256": "3d162a1810bde9b17c56636d4add55f82c6e7edfd065b6ef45c27490c6e992ff"
+    }
+  },
+  "text": {
+    "source": {
+      "name": "Tanzil Quran Text (Uthmani, Version 1.1)",
+      "url": "https://tanzil.net",
+      "license": "CC BY 3.0",
+      "sha256": "7f30c647331a61100ebf24a80507dc0fcdd9f2df97f1312b5b2dfcb982a7f326"
+    },
+    "count": {
+      "surahs": 114,
+      "ayahs": 6236,
+      "words": 77429
+    }
+  },
+  "mirrors": [
+    {
+      "id": "github",
+      "base": "https://github.com/omtoc/noor-packs/releases/download/recite-v1"
+    },
+    {
+      "id": "huggingface",
+      "base": "https://huggingface.co/omtoc/noor-packs/resolve/main/recite/v1"
+    }
+  ],
+  "tuning": {},
+  "credits": [
+    {
+      "name": "NVIDIA FastConformer Arabic (stt_ar_fastconformer_hybrid_large_pcd_v1.0)",
+      "license": "CC BY 4.0",
+      "url": "https://huggingface.co/nvidia/stt_ar_fastconformer_hybrid_large_pcd_v1.0",
+      "changes": "Exported to ONNX as a text CTC model with its audio preprocessing in the graph and mixed int4/int8 quantization (Cyberistic, offline-quran-validation), released by Tilawa v0.2.0. Noor ships that file unchanged, split into parts."
+    },
+    {
+      "name": "Tilawa (fastconformer_full_mixed.onnx, vocab.json; release v0.2.0)",
+      "license": "MIT",
+      "url": "https://github.com/yazinsai/tilawa"
+    },
+    {
+      "name": "Tanzil Quran Text (Uthmani, Version 1.1)",
+      "license": "CC BY 3.0",
+      "url": "https://tanzil.net",
+      "changes": "Verbatim. Split into words at its own spaces; Tanzil's full notice is in text.json."
+    }
+  ]
+}

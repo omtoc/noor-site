@@ -27,7 +27,7 @@
   <main>
     <header>
       <h1>Noor Privacy Policy</h1>
-      <p>Last updated: 15 October 2026</p>
+      <p>Last updated: 18 October 2026</p>
     </header>
     <section class="summary">
       <h2>The short version</h2>
@@ -36,8 +36,9 @@
         <li>Your bookmarks, reading progress, settings, downloads, zakat calculations, saved duas and adhkar counts stay on your phone.</li>
         <li>To work out prayer times, the app sends your location to the AlAdhan prayer-times service. To show the Quran, translations, tafsir and recitations, it asks Quran Foundation (Quran.com), QuranEnc.com for some tafsir and translations, and AlQuran.cloud for the Burmese translation. Dua recitations play from hisnmuslim.com.</li>
         <li>For zakat, the app downloads gold and silver prices from gold-api.com and exchange rates from ExchangeRate-API. These requests include nothing about you.</li>
+        <li>Recite from memory listens through the microphone only while you recite. Your voice is checked on your phone and is never recorded, saved or sent anywhere. The listening files it needs are a one-time download from GitHub, or from Hugging Face if GitHub can&#39;t be reached; that download includes nothing about you.</li>
         <li>To keep itself up to date, the app checks with Expo&#39;s update service, which gives each installation a random update ID that isn&#39;t linked to you. It also reads a small file of update rules from Supabase or a backup web host; that request includes nothing about you.</li>
-        <li>Location and notifications are optional. You can turn them off at any time in your phone settings.</li>
+        <li>Location, the microphone and notifications are optional. You can turn them off at any time in your phone settings.</li>
         <li>We never sell your data, and we never use it for advertising or to train AI.</li>
       </ul>
     </section>
@@ -45,12 +46,13 @@
       <h2>1. Introduction</h2>
       <p>Noor is a Quran, prayer-times and Qibla app for iPhone and Android, published by Noor team (&quot;we&quot;, &quot;us&quot;). This policy explains what information the Noor app uses, where it goes, and the choices you have.</p>
       <p>Noor uses the Quran Foundation APIs, the service behind the Quran.com domain and QuranReflect, to provide the Quran text, translations, tafsir, search and recitations. Noor never signs you in to Quran.com or QuranReflect and uses no Quran Foundation user account features.</p>
-      <p>Some tafsir and translations come from QuranEnc.com (the Encyclopedia of the Noble Quran) instead, and the Burmese translation from AlQuran.cloud. The dua recitations in Duas and adhkar play from hisnmuslim.com. The zakat calculators get gold and silver prices from gold-api.com and exchange rates from ExchangeRate-API. App updates come from Expo&#39;s update service, and the rules that say which versions of the app are still supported come from Supabase, with a backup copy on a static web host. Section 4 lists what each service receives.</p>
-      <p>Effective date: 2026-10-15.</p>
+      <p>Some tafsir and translations come from QuranEnc.com (the Encyclopedia of the Noble Quran) instead, and the Burmese translation from AlQuran.cloud. The dua recitations in Duas and adhkar play from hisnmuslim.com. The zakat calculators get gold and silver prices from gold-api.com and exchange rates from ExchangeRate-API. App updates come from Expo&#39;s update service, and the rules that say which versions of the app are still supported come from Supabase, with a backup copy on a static web host. Recite from memory downloads its listening files from GitHub, or from Hugging Face if GitHub can&#39;t be reached, using a signed list of the files from those same two hosts. Section 4 lists what each service receives.</p>
+      <p>Effective date: 2026-10-18.</p>
     </section>
     <section>
       <h2>2. What Information We Collect</h2>
       <p>Apart from the app-update details described below, we, the developers, collect no personal information. There is no account or sign-up, and the app asks for no name, email address or phone number. It reads no contacts or photos, and uses no advertising ID.</p>
+      <p>The microphone. Recite from memory uses the microphone only from the moment you tap Start reciting until you stop, leave the reading screen or switch to another app. A speech model running on your phone turns what you say into words, a few seconds at a time, and the app compares them with the verses on your phone. The sound is kept in memory only for those few seconds, is never written to a file, and never leaves your phone: not to us, and not to anyone else. It is not used to train AI.</p>
       <p>The only ID is a random update ID. The app&#39;s update service (Expo) gives each installation of the app one, so it can deliver updates. It is not linked to you, your name or your phone number. Uninstalling the app or clearing its data replaces it with a new one (restoring a phone backup can bring the old one back).</p>
       <p>The app includes no analytics, no ads and no crash-reporting service. The only counts and error reports are the update service&#39;s own: Expo counts how many installations check for and use each update, and if an update fails to start, the app sends Expo the technical error message (at most 1,024 characters) with its next update check, so a broken update can be found and fixed.</p>
       <p>Information that stays on your phone:</p>
@@ -64,6 +66,7 @@
         <li>Tafsir and translations from QuranEnc.com and AlQuran.cloud that you have opened, so they also work offline: up to about 256 MB, the oldest removed first.</li>
         <li>In Zakat &amp; inheritance: your currency, weight unit, zakat date and reminder setting; any prices and exchange rates you enter yourself; your unfinished answers, so you can carry on later; the calculations you save; and the latest downloaded prices, so the calculators also work offline.</li>
         <li>In Duas and adhkar: your reading settings (transliteration, meaning, counter, vibration, going on to the next dua by itself, Arabic text size), the duas you save, and your counts in each daily session, such as the morning adhkar. Counts are kept only for the current and the previous time, for example this morning and yesterday morning.</li>
+        <li>In Recite from memory: its settings (hide the verses, vibrate on a mistake, when mistakes show) and its listening files (about 90 MB) once you download them. The words and mistakes of a recitation are kept in memory only until you close it.</li>
         <li>For app updates: the random update ID, updates the app has downloaded, the latest update rules, when you last chose &quot;Not now&quot; for an update reminder, and short notes the app needs to finish an update (such as where a recitation stopped, so it can offer to continue it after the restart).</li>
       </ul>
       <p>Information sent to the services that make features work (section 4 lists who gets what):</p>
@@ -72,6 +75,7 @@
         <li>What you type into Search, and into the city search on the Qibla screen.</li>
         <li>Which surahs, verses, translations, tafsir and recitations you open or download, and your app language.</li>
         <li>In Duas and adhkar, which dua recitation you play. It is streamed from hisnmuslim.com and not saved.</li>
+        <li>When you download Recite from memory&#39;s listening files: requests for the signed list of the files and for the files themselves, the same for everyone. They include nothing about you.</li>
         <li>Requests for the latest gold and silver prices and exchange rates, when you use a zakat calculator that needs them. They are the same for everyone and include nothing about you, not even your currency.</li>
         <li>When the app checks for updates: the random update ID, whether your phone is an iPhone or an Android phone, the app&#39;s version details and which update it is running, and, after an update failed to start, that update&#39;s technical error message. The app checks when it opens, when you come back to it, about once an hour while it stays open, and sometimes in the background.</li>
         <li>Requests for the update rules (which versions of the app are still supported). They are the same for everyone and include nothing about you.</li>
@@ -86,6 +90,7 @@
       <ul>
         <li>Location: to calculate prayer times and the Qibla direction where you are, to schedule athan alerts, and to show your city and country.</li>
         <li>Search text: to find verses, surahs and cities.</li>
+        <li>Microphone: only to check your recitation in Recite from memory, on your phone, while you recite.</li>
         <li>Content requests: to show the Quran, translations, tafsir and recitations you choose.</li>
         <li>Zakat and inheritance answers, and the prices: only to work out your results, on your phone.</li>
         <li>Update ID and update details: to deliver app updates, and so Expo can count how many installations use each update and show us whether an update is working. The error message from an update that failed to start: only to find and fix that update.</li>
@@ -101,13 +106,15 @@
       <p>These are our service providers, used only to deliver app updates. They handle this data for us under their terms and data processing agreements:</p>
       <ul>
         <li>Expo (650 Industries, Inc., United States), which runs EAS Update, the service that delivers app updates: on every update check, the random update ID, your phone type (iPhone or Android), the app&#39;s version details, its update channel and the updates it has and is running, and after an update failed to start, its technical error message (at most 1,024 characters). Expo keeps the update ID to count how many installations use updates each month and to show us update statistics. Privacy policy: <a href="https://expo.dev/privacy">https://expo.dev/privacy</a></li>
-        <li>Supabase (Supabase, Inc., United States; files stored with Amazon Web Services), which hosts the update rules, with a backup copy on a static web host we choose: a request for the same file everyone gets. They see only your IP address and basic technical details (the user agent). Nothing you typed and no ID is sent. Privacy policy: <a href="https://supabase.com/privacy">https://supabase.com/privacy</a></li>
+        <li>Supabase (Supabase, Inc., United States; files stored with Amazon Web Services), which hosts the update rules and the signed list of Recite from memory&#39;s files, with a backup copy on a static web host we choose: a request for the same file everyone gets. They see only your IP address and basic technical details (the user agent). Nothing you typed and no ID is sent. Privacy policy: <a href="https://supabase.com/privacy">https://supabase.com/privacy</a></li>
       </ul>
       <p>The other services are independent. Each handles what it receives under its own privacy policy:</p>
       <ul>
         <li>Quran Foundation (Quran.com APIs and recitation audio, including Quran Audio at quranicaudio.com): surah and verse numbers, your translation, tafsir and reciter choices, your app language and your search text. Privacy policies: <a href="https://quran.com/privacy">https://quran.com/privacy</a> and <a href="https://quranicaudio.com/privacy">https://quranicaudio.com/privacy</a></li>
         <li>QuranEnc.com (the Encyclopedia of the Noble Quran, run by IslamHouse.com), for some tafsir and translations: the surah and verse numbers and which tafsir or translation you open. Its site: <a href="https://quranenc.com">https://quranenc.com</a></li>
         <li>AlQuran.cloud (Islamic Network, which also runs AlAdhan), for the Burmese translation: the surah and verse numbers you open. Terms: <a href="https://alquran.cloud/terms-and-conditions">https://alquran.cloud/terms-and-conditions</a></li>
+        <li>GitHub (GitHub, Inc., a Microsoft company), which hosts Recite from memory&#39;s listening files: a download of the same files everyone gets, only when you download them. Privacy statement: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement</a></li>
+        <li>Hugging Face, which keeps a backup copy of those files, used only if GitHub can&#39;t be reached: the same download. Privacy policy: <a href="https://huggingface.co/privacy">https://huggingface.co/privacy</a></li>
         <li>hisnmuslim.com, the Hisn al-Muslim website the duas are taken from, for the dua recitations in Duas and adhkar: which dua recitation you play, only when you tap Listen. The recitation is streamed and not saved. Its site: <a href="https://www.hisnmuslim.com">https://www.hisnmuslim.com</a></li>
         <li>AlAdhan (Islamic Network), for prayer times: your latitude and longitude, the date, and your calculation method and Asr school. When athan alerts are on, the app also refreshes the monthly timetable in the background, using your last saved location. AlAdhan publishes its terms at <a href="https://aladhan.com/credits-and-terms">https://aladhan.com/credits-and-terms</a></li>
         <li>Photon by komoot (an OpenStreetMap place search), only when you type three or more letters into the city search: your search text and app language. Privacy policy: <a href="https://www.komoot.com/privacy">https://www.komoot.com/privacy</a></li>
@@ -125,6 +132,7 @@
         <li>What the app stores on your phone is protected by the phone&#39;s own security, including its encryption at rest when you use a passcode.</li>
         <li>We keep no database of users, so there is no server copy of your information that could be breached. Expo keeps only the app-update details described in section 2, which are not linked to you.</li>
         <li>App updates come only from our own Expo project over HTTPS, and the update rules are digitally signed: the app ignores any rules file that is not signed with our key.</li>
+        <li>Recite from memory&#39;s listening files are checked, byte for byte, against a list signed with our key before the app uses them.</li>
         <li>If you report a security problem to us, we will start responding within 24 hours. If a problem affects you, we will fix it and tell users in the app or its release notes.</li>
       </ul>
     </section>
@@ -133,6 +141,7 @@
       <p>Apart from the random update ID that Expo keeps for us (see below), we hold no information about you, so everything is under your control on your phone:</p>
       <ul>
         <li>Location: allow it, deny it or change it at any time in your phone&#39;s settings. Without it, you can still read and listen to the Quran and choose a city for the Qibla; prayer times need a location.</li>
+        <li>Microphone: allow it or deny it at any time in your phone&#39;s settings. Only Recite from memory uses it. Remove Recite from memory&#39;s listening files in Settings → Quran → Recite from memory.</li>
         <li>Notifications: turn athan alerts off for each prayer in the app, turn the zakat-date reminder off in Zakat &amp; inheritance, or turn notifications off for the app in your phone&#39;s settings. On Android, the zakat-date reminder has its own notification channel, which you can also turn off there.</li>
         <li>Bookmarks: remove them on the Bookmarks page. Downloads: delete them in Settings → Manage downloads.</li>
         <li>Duas and adhkar: tap Saved on a dua to remove it from your saved duas, and use Start over in a session&#39;s settings to clear that session&#39;s counts.</li>
@@ -146,7 +155,7 @@
     <section>
       <h2>7. Data Retention &amp; Deletion</h2>
       <ul>
-        <li>On your phone, your data stays until you delete it or uninstall the app. Cached data is replaced on its own: today&#39;s prayer times daily, timetables after at most three months, the reciter list after 24 hours, the surah and juz lists after at most seven days, tafsir and translations saved from QuranEnc.com and AlQuran.cloud when space runs short (about 256 MB, oldest first; a copy older than 30 days is refreshed when you next read it online), the zakat prices when newer ones are downloaded, app updates and the update rules when newer ones arrive, and other content when the app closes.</li>
+        <li>On your phone, your data stays until you delete it or uninstall the app. Cached data is replaced on its own: today&#39;s prayer times daily, timetables after at most three months, the reciter list after 24 hours, the surah and juz lists after at most seven days, tafsir and translations saved from QuranEnc.com and AlQuran.cloud when space runs short (about 256 MB, oldest first; a copy older than 30 days is refreshed when you next read it online), the zakat prices when newer ones are downloaded, app updates and the update rules when newer ones arrive, and other content when the app closes. Recite from memory&#39;s listening files stay until you remove them; your voice is never stored.</li>
         <li>Phone backups (iCloud, Google) may include the app&#39;s data under your own account, managed by Apple or Google.</li>
         <li>Emails you send us are kept only as long as needed to help you. If you ask, we will delete them within 30 days, and from any backups within 90 days.</li>
         <li>The services in section 4 keep request logs according to their own policies. Expo keeps the update ID and its update records under its retention policy; uninstalling the app or clearing its data starts a new update ID.</li>
