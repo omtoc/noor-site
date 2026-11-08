@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "kind": "mushaf",
+  "id": "qatar",
+  "version": 1,
+  "requires": {
+    "nativeApi": 1,
+    "app": 1
+  },
+  "files": {
+    "font.ttf.deflate": {
+      "bytes": 142193,
+      "sha256": "421fac833970cc2f5afda131e0be038a934dc0d8700143a6a88003dcc8bc064e"
+    },
+    "pages.0.bin": {
+      "bytes": 869099,
+      "sha256": "499966def9ecf052f2020fcb5e90caefb31a38f39e3c042126d03e6b07af0a6f"
+    },
+    "pages.idx": {
+      "bytes": 7248,
+      "sha256": "f4a828bf53ac3eb08b76df878cb22c307c8659919ad22f48f9512871658c49c0"
+    }
+  },
+  "mirrors": [
+    {
+      "id": "github",
+      "base": "https://github.com/omtoc/noor-packs/releases/download/mushaf-qatar-v1"
+    }
+  ],
+  "credits": [
+    {
+      "name": "King Fahd Glorious Quran Printing Complex: KFGQPC HAFS Uthmanic Script font (v22)",
+      "license": "KFGQPC font licence: use, copy and distribute free of cost",
+      "url": "https://fonts.qurancomplex.gov.sa",
+      "changes": "Converted to TrueType for the app, hinting removed, compressed. The Quran text is not altered."
+    },
+    {
+      "name": "Quranic Universal Library (QUL), Tarteel",
+      "license": "Free to use with credit",
+      "url": "https://qul.tarteel.ai",
+      "changes": "Mushaf Qatar's page layout. Page layout and word-by-word script exports converted into page records; words matched to Quran.com positions."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "format": 1,
+  "kind": "mushaf",
+  "id": "madinah-1421",
+  "version": 1,
+  "requires": {
+    "nativeApi": 1,
+    "app": 1
+  },
+  "files": {
+    "fonts.0.bin": {
+      "bytes": 125017556,
+      "sha256": "5b03a84142bc3d88c7c66d4d4f7a7a3aa6beba7ed6cc1069268fd2d9dcc3c508",
+      "parts": [
+        {
+          "name": "fonts.0.bin.000",
+          "bytes": 8388608,
+          "sha256": "7bd668b43d13982c3d4f3143f09ef2a77f7d3cca2fdbd56c9745ce330b72f9a1"
+        },
+        {
+          "name": "fonts.0.bin.001",
+          "bytes": 8388608,
+          "sha256": "56c1a39399c48a52f59abd54d00a63465628233d41753aa28119fd01ee963f0d"
+        },
+        {
+          "name": "fonts.0.bin.002",
+          "bytes": 8388608,
+          "sha256": "20bfc186c64f5de14d8568f9954faad426107821b1407ff0a34d74b1869b2db1"
+        },
+        {
+          "name": "fonts.0.bin.003",
+          "bytes": 8388608,
+          "sha256": "edada5d04ae51365a85ccad92bce5bd50e52c2fa1e1b7131c67c0b4edc91f637"
+        },
+        {
+          "name": "fonts.0.bin.004",
+          "bytes": 8388608,
+          "sha256": "a42efe8d2bbcd89cfabfb7fe45bc797408cbbb2b5e1f1fecaff019553c9fb49c"
+        },
+        {
+          "name": "fonts.0.bin.005",
+          "bytes": 8388608,
+          "sha256": "0e97e82ef3afe6ee54412abc93f270faf7bfa137803987255b14af98156e60cb"
+        },
+        {
+          "name": "fonts.0.bin.006",
+          "bytes": 8388608,
+          "sha256": "bbe40373dba7de8e4ad8dcf86b0f2bc9ff06e1eb93275f60f321293aeb0c5fd0"
+        },
+        {
+          "name": "fonts.0.bin.007",
+          "bytes": 8388608,
+          "sha256": "68d380fd3a66ff13f295f971edfb42b436c358c3bab33e2f4fc862493c589ce3"
+        },
+        {
+          "name": "fonts.0.bin.008",
+          "bytes": 8388608,
+          "sha256": "0b513dfef08f3b29917227e041cff5e104400f90506b02d40cd23c3b3e1303f6"
+        },
+        {
+          "name": "fonts.0.bin.009",
+          "bytes": 8388608,
+          "sha256": "d157446b4242249b582b88555ba047de4ffa63a0b71817ff644ee4d7b874aec1"
+        },
+        {
+          "name": "fonts.0.bin.010",
+          "bytes": 8388608,
+          "sha256": "87e3a48e39e90bf2513675247fd68edbabfc9969ddf91916a2b3d7bb598888b7"
+        },
+        {
+          "name": "fonts.0.bin.011",
+          "bytes": 8388608,
+          "sha256": "50aa4b9940a8cba7ebc917a12e434c1aaa7b096bb57170d615724bb13db74db7"
+        },
+        {
+          "name": "fonts.0.bin.012",
+          "bytes": 8388608,
+          "sha256": "49bfd2311080d063b8298bdc9fbd8d1e3ba45cc9ef57d78e684250a02bb420f5"
+        },
+        {
+          "name": "fonts.0.bin.013",
+          "bytes": 8388608,
+          "sha256": "f3d4304611c0e5ce90415ab2a992cdb9420e3b57e209b5c18581d02eedf17876"
+        },
+        {
+          "name": "fonts.0.bin.014",
+          "bytes": 7577044,
+          "sha256": "3e53ec43ed6ad24a7f04a40dc3fcf39662ee5557dba3babbafc7884d30f70cda"
+        }
+      ]
+    },
+    "fonts.idx": {
+      "bytes": 7248,
+      "sha256": "d97165234a93c13a4d4768162860df935a63c650e1d9a446f92578ed9d3db316"
+    },
+    "pages.0.bin": {
+      "bytes": 463723,
+      "sha256": "af1a6571464cdc19039e5ff768157cdf95934a4d14a7de2a13860fcea7ed4465"
+    },
+    "pages.idx": {
+      "bytes": 7248,
+      "sha256": "930b186defd947e5b07f8be1962a909075f69b2b526f8fa32309906f3ba858e3"
+    }
+  },
+  "mirrors": [
+    {
+      "id": "github",
+      "base": "https://github.com/omtoc/noor-packs/releases/download/mushaf-madinah-1421-v1"
+    }
+  ],
+  "credits": [
+    {
+      "name": "King Fahd Glorious Quran Printing Complex: QCF V2 (1421 AH print) page fonts",
+      "license": "KFGQPC font licence: use, copy and distribute free of cost",
+      "url": "https://fonts.qurancomplex.gov.sa",
+      "changes": "Converted to TrueType, trimmed to the glyphs each page uses, hinting removed, compressed. The Quran text is not altered."
+    },
+    {
+      "name": "Quranic Universal Library (QUL), Tarteel",
+      "license": "Free to use with credit",
+      "url": "https://qul.tarteel.ai",
+      "changes": "Page layout and word-by-word script exports converted into page records; words matched to Quran.com positions."
+    }
+  ]
+}

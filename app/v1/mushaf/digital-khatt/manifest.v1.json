@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "kind": "mushaf",
+  "id": "digital-khatt",
+  "version": 1,
+  "requires": {
+    "nativeApi": 1,
+    "app": 1
+  },
+  "files": {
+    "font.ttf.deflate": {
+      "bytes": 229481,
+      "sha256": "7398efeeb2385485e95d02665cfe530e14a2803aab4e827c40764e41e0f9e939"
+    },
+    "pages.0.bin": {
+      "bytes": 879727,
+      "sha256": "bc98c00e504873489245fdd4d8b023db20341d052b2e3271fa742aa5027114ff"
+    },
+    "pages.idx": {
+      "bytes": 7248,
+      "sha256": "5e3f5e28191742755d03088f3a6ad825e999474ad4f668fc571d4fee1b2ff997"
+    }
+  },
+  "mirrors": [
+    {
+      "id": "github",
+      "base": "https://github.com/omtoc/noor-packs/releases/download/mushaf-digital-khatt-v1"
+    }
+  ],
+  "credits": [
+    {
+      "name": "DigitalKhatt Old Madina font (Amine Anane; Tarteel Inc.)",
+      "license": "OFL 1.1",
+      "url": "https://github.com/DigitalKhatt",
+      "changes": "Compressed. The font itself is unchanged."
+    },
+    {
+      "name": "Quranic Universal Library (QUL), Tarteel",
+      "license": "Free to use with credit",
+      "url": "https://qul.tarteel.ai",
+      "changes": "Page layout and word-by-word script exports converted into page records; words matched to Quran.com positions."
+    }
+  ]
+}

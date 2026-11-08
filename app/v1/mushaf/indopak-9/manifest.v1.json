@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "kind": "mushaf",
+  "id": "indopak-9",
+  "version": 1,
+  "requires": {
+    "nativeApi": 1,
+    "app": 1
+  },
+  "files": {
+    "font.ttf.deflate": {
+      "bytes": 113048,
+      "sha256": "02bcf6840d5f89f679a9e95821280715fa4bb64e23f89f9657019041a352d317"
+    },
+    "pages.0.bin": {
+      "bytes": 1190238,
+      "sha256": "6f95f2524eb0c8df03e19044e447d16bd0ec005a41aaf8dd51ca7492c3b266ed"
+    },
+    "pages.idx": {
+      "bytes": 22680,
+      "sha256": "90af79bf99dfde063aa09f8809dac745dcc9d05403723daf24d3fb6a6e1dc9be"
+    }
+  },
+  "mirrors": [
+    {
+      "id": "github",
+      "base": "https://github.com/omtoc/noor-packs/releases/download/mushaf-indopak-9-v1"
+    }
+  ],
+  "credits": [
+    {
+      "name": "AlQuran IndoPak by QuranWBW (Ayman Siddiqui), based on the Al Qalam Quran Majeed fonts",
+      "license": "Made for Sadaqa-e-Jaria (QuranWBW.com)",
+      "url": "https://quranwbw.com",
+      "changes": "Converted to TrueType for the app, hinting removed, compressed. The Quran text is not altered."
+    },
+    {
+      "name": "Quranic Universal Library (QUL), Tarteel",
+      "license": "Free to use with credit",
+      "url": "https://qul.tarteel.ai",
+      "changes": "Page layout and word-by-word script exports converted into page records; words matched to Quran.com positions."
+    }
+  ]
+}

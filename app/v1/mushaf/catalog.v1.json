@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "kind": "mushaf-catalog",
+  "editions": [
+    {
+      "id": "digital-khatt",
+      "version": 1,
+      "bytes": 1116456
+    },
+    {
+      "id": "indopak-13-qudratullah",
+      "version": 1,
+      "bytes": 1064920
+    },
+    {
+      "id": "indopak-13-taj",
+      "version": 1,
+      "bytes": 1072977
+    },
+    {
+      "id": "indopak-15",
+      "version": 1,
+      "bytes": 998233
+    },
+    {
+      "id": "indopak-16",
+      "version": 1,
+      "bytes": 982571
+    },
+    {
+      "id": "indopak-9",
+      "version": 1,
+      "bytes": 1325966
+    },
+    {
+      "id": "madinah-1405",
+      "version": 1,
+      "bytes": 45519031
+    },
+    {
+      "id": "madinah-1421",
+      "version": 1,
+      "bytes": 125495775
+    },
+    {
+      "id": "madinah-1441-tajweed",
+      "version": 1,
+      "bytes": 68489501
+    },
+    {
+      "id": "nastaleeq",
+      "version": 1,
+      "bytes": 990202
+    },
+    {
+      "id": "qatar",
+      "version": 1,
+      "bytes": 1018540
+    }
+  ]
+}

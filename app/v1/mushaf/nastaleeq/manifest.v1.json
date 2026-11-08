@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "kind": "mushaf",
+  "id": "nastaleeq",
+  "version": 1,
+  "requires": {
+    "nativeApi": 1,
+    "app": 1
+  },
+  "files": {
+    "font.ttf.deflate": {
+      "bytes": 114760,
+      "sha256": "9ffe807ae26877d797fce39bf0d975e9ad34ad5c7d637a475b1a2390e9b787b2"
+    },
+    "pages.0.bin": {
+      "bytes": 868122,
+      "sha256": "e2ffc1f7b07fc9676bf34252f4bccb34415c8941d0029a74c60a9ba41a895eae"
+    },
+    "pages.idx": {
+      "bytes": 7320,
+      "sha256": "48ea6a1b54095969ae3da931a9eafae4239014d06fdb228d9db6137a7cdd1569"
+    }
+  },
+  "mirrors": [
+    {
+      "id": "github",
+      "base": "https://github.com/omtoc/noor-packs/releases/download/mushaf-nastaleeq-v1"
+    }
+  ],
+  "credits": [
+    {
+      "name": "King Fahd Glorious Quran Printing Complex: KFGQPC Nastaleeq font (Alif Lam Mim Tech., Ashfaq A. Niazi)",
+      "license": "KFGQPC font licence: use, copy and distribute free of cost",
+      "url": "https://fonts.qurancomplex.gov.sa",
+      "changes": "Converted to TrueType for the app, hinting removed, compressed. The Quran text is not altered."
+    },
+    {
+      "name": "Quranic Universal Library (QUL), Tarteel",
+      "license": "Free to use with credit",
+      "url": "https://qul.tarteel.ai",
+      "changes": "Page layout and word-by-word script exports converted into page records; words matched to Quran.com positions. Line breaks taken from QUL's own Nastaleeq page previews."
+    }
+  ]
+}

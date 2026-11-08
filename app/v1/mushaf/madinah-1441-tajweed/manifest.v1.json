@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "kind": "mushaf",
+  "id": "madinah-1441-tajweed",
+  "version": 1,
+  "requires": {
+    "nativeApi": 1,
+    "app": 1
+  },
+  "files": {
+    "fonts.0.bin": {
+      "bytes": 68011568,
+      "sha256": "4a72851f1c406594a5c0c15f662148fa0077550ae837cee24eb7eb7f849944e2",
+      "parts": [
+        {
+          "name": "fonts.0.bin.000",
+          "bytes": 8388608,
+          "sha256": "4e4ebe4988f5c1d79c3d7d8f85ddd620b10cd2dc587307421e3032bd578aa7d5"
+        },
+        {
+          "name": "fonts.0.bin.001",
+          "bytes": 8388608,
+          "sha256": "84d9b498974da45697bed7ca2c938ffc4a754b2927f5d53e953883c7a14b9f1e"
+        },
+        {
+          "name": "fonts.0.bin.002",
+          "bytes": 8388608,
+          "sha256": "bc378b9d3797e2aab54ff76d35d4f5a7ecb37af410d2a369bc1453a9017d8c22"
+        },
+        {
+          "name": "fonts.0.bin.003",
+          "bytes": 8388608,
+          "sha256": "49b2bfd7bad8a05ad6570886ca38d839fba727c53371bf32b80676428a890427"
+        },
+        {
+          "name": "fonts.0.bin.004",
+          "bytes": 8388608,
+          "sha256": "90e854efbc44a510a7f86a793dffccb1bb9e8250fce30240970128b7197f8ed0"
+        },
+        {
+          "name": "fonts.0.bin.005",
+          "bytes": 8388608,
+          "sha256": "b11d047ee7b32c510d2be7b1698bca166e6456943e9f81f6bce8f84740d920ce"
+        },
+        {
+          "name": "fonts.0.bin.006",
+          "bytes": 8388608,
+          "sha256": "253ec466f7c1801388c440d8b11d36dfedd36bab1f67a9d4f9a4e7d590f58d9b"
+        },
+        {
+          "name": "fonts.0.bin.007",
+          "bytes": 8388608,
+          "sha256": "717f663509c6c8e67adaf1f3a0436c8fc0a7258a41428ecf46e25503d07ded2a"
+        },
+        {
+          "name": "fonts.0.bin.008",
+          "bytes": 902704,
+          "sha256": "a6557e57f6cb8b486d4a996c9d58c5675ca7aa3652a837b30c90dc77f0fc2ef5"
+        }
+      ]
+    },
+    "fonts.idx": {
+      "bytes": 7248,
+      "sha256": "3906e957cdcdbd3214051463e59de09043c02bbaaa3e64245fc54ca12a7bde2d"
+    },
+    "pages.0.bin": {
+      "bytes": 463437,
+      "sha256": "013c6e1d0c66d4e863e18b2e2f4ec333ccac058746f63e102f4a626c2a85ee78"
+    },
+    "pages.idx": {
+      "bytes": 7248,
+      "sha256": "e7b8513b4a6c9b3af91f801e091e09439e37bdfa38b79c0dec03d2334d4446ce"
+    }
+  },
+  "mirrors": [
+    {
+      "id": "github",
+      "base": "https://github.com/omtoc/noor-packs/releases/download/mushaf-madinah-1441-tajweed-v1"
+    }
+  ],
+  "credits": [
+    {
+      "name": "King Fahd Glorious Quran Printing Complex: QCF V4 tajweed colour (1441 AH print) page fonts",
+      "license": "KFGQPC font licence: use, copy and distribute free of cost",
+      "url": "https://fonts.qurancomplex.gov.sa",
+      "changes": "Converted to TrueType, trimmed to the glyphs each page uses, hinting removed, compressed. The Quran text is not altered. Colours set for each page style when drawn."
+    },
+    {
+      "name": "Quranic Universal Library (QUL), Tarteel",
+      "license": "Free to use with credit",
+      "url": "https://qul.tarteel.ai",
+      "changes": "Page layout and word-by-word script exports converted into page records; words matched to Quran.com positions."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "kind": "mushaf",
+  "id": "madinah-1405",
+  "version": 1,
+  "requires": {
+    "nativeApi": 1,
+    "app": 1
+  },
+  "files": {
+    "fonts.0.bin": {
+      "bytes": 45036835,
+      "sha256": "a59bdf763ed9d646c480c4f50fae3b1c0d4cb14c33d40c33cd661bc2e7a44f2d",
+      "parts": [
+        {
+          "name": "fonts.0.bin.000",
+          "bytes": 8388608,
+          "sha256": "b86fc79689366720ca4007537317a7597e2369a88bcd84b4160d846d67a2c5e7"
+        },
+        {
+          "name": "fonts.0.bin.001",
+          "bytes": 8388608,
+          "sha256": "96da5df8fbbfad75f55145cccdf66e36a0efe470fcd63af302f2965763dc20e1"
+        },
+        {
+          "name": "fonts.0.bin.002",
+          "bytes": 8388608,
+          "sha256": "b99088e95b567c53bb5210b9ce95dff7d6c21a2e98b6956dcfdef810fe02055f"
+        },
+        {
+          "name": "fonts.0.bin.003",
+          "bytes": 8388608,
+          "sha256": "cba18b0ef090343f02bd72a072a15713f547d86fe2e5dc05f4bc0d5c6923bc8f"
+        },
+        {
+          "name": "fonts.0.bin.004",
+          "bytes": 8388608,
+          "sha256": "18f6e5f9e294824e6bec9b4cf843270451f11ce8fb94682bad56d24b9c59bc23"
+        },
+        {
+          "name": "fonts.0.bin.005",
+          "bytes": 3093795,
+          "sha256": "6983baf7735ae84b05503cc2b09ec541d611b3ed9eaa0db2e9f9e80133ad6cef"
+        }
+      ]
+    },
+    "fonts.idx": {
+      "bytes": 7248,
+      "sha256": "4d912a780e367538f6d2d7dc5b9863f7cd18c4bf694313e79c9e0914482f7749"
+    },
+    "pages.0.bin": {
+      "bytes": 467700,
+      "sha256": "104b34f2f98b4061c6ae6ae550939f0904453e7fed88e12cdcaf9a5951d0b6a2"
+    },
+    "pages.idx": {
+      "bytes": 7248,
+      "sha256": "a952a42f4be928509a2c230081ef0e9a84232b9817e7acd8d3aa349091ea6353"
+    }
+  },
+  "mirrors": [
+    {
+      "id": "github",
+      "base": "https://github.com/omtoc/noor-packs/releases/download/mushaf-madinah-1405-v1"
+    }
+  ],
+  "credits": [
+    {
+      "name": "King Fahd Glorious Quran Printing Complex: QCF V1 (1405 AH print) page fonts",
+      "license": "KFGQPC font licence: use, copy and distribute free of cost",
+      "url": "https://fonts.qurancomplex.gov.sa",
+      "changes": "Converted to TrueType, trimmed to the glyphs each page uses, hinting removed, compressed. The Quran text is not altered."
+    },
+    {
+      "name": "Quranic Universal Library (QUL), Tarteel",
+      "license": "Free to use with credit",
+      "url": "https://qul.tarteel.ai",
+      "changes": "Page layout and word-by-word script exports converted into page records; words matched to Quran.com positions."
+    }
+  ]
+}
